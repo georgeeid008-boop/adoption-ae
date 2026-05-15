@@ -38,7 +38,7 @@
     { "@type": "Place", "name": "Gulf Cooperation Council" }
   ],
   "serviceType": "AI consulting and AI adoption",
-  "knowsAbout": ["AI adoption", "AI strategy", "AI readiness", "AI governance", "AI taskforce", "Fractional AI advisor"],
+  "knowsAbout": ["AI adoption", "AI strategy", "AI readiness", "AI governance", "AI taskforce", "Fractional AI advisor", "AI training", "Executive AI training", "AI literacy", "AI bootcamp"],
   "audience": {
     "@type": "BusinessAudience",
     "audienceType": "50–500 person companies"
@@ -65,6 +65,11 @@
       "@type": "Offer",
       "name": "Adoption Sprint",
       "description": "10–12 weeks. One use case shipped to production. A trained operator. A reusable playbook."
+    },
+    {
+      "@type": "Offer",
+      "name": "AI Training Programs",
+      "description": "Four curriculums, each for a different room — Executive AI Briefing (1 day, C-suite), AI Operator Bootcamp (5 days, managers), AI Builder Track (4 weeks, engineering), and AI Fluency Program (6 weeks, whole company)."
     }
   ]
 }
@@ -2195,6 +2200,7 @@
 <div class="scroll-progress" id="scrollProgress" aria-hidden="true">
   <div class="seg" data-section="what"><div class="fill"></div></div>
   <div class="seg" data-section="how"><div class="fill"></div></div>
+  <div class="seg" data-section="train"><div class="fill"></div></div>
   <div class="seg" data-section="practice"><div class="fill"></div></div>
   <div class="seg" data-section="contact"><div class="fill"></div></div>
 </div>
@@ -2203,6 +2209,7 @@
 <aside class="spine" id="spine" aria-label="Section navigation">
   <a href="#what" data-section="what"><span class="label">What</span></a>
   <a href="#how" data-section="how"><span class="label">How</span></a>
+  <a href="#train" data-section="train"><span class="label">Train</span></a>
   <a href="#practice" data-section="practice"><span class="label">Practice</span></a>
   <a href="#contact" data-section="contact"><span class="label">Audit</span></a>
 </aside>
@@ -2274,6 +2281,7 @@
     <nav>
       <a href="#what" data-nav-section="what">What we do</a>
       <a href="#how" data-nav-section="how">How we work</a>
+      <a href="#train" data-nav-section="train">Training</a>
       <a href="#practice" data-nav-section="practice">The practice</a>
       <a href="#contact" data-nav-section="contact">Contact</a>
     </nav>
@@ -2440,7 +2448,7 @@
 
   <div class="rule" aria-hidden="true"><svg class="rule-ast" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="6.4" y1="6.4" x2="17.6" y2="17.6"/><line x1="17.6" y1="6.4" x2="6.4" y2="17.6"/></g></svg></div>
 
-  <section id="practice" class="reveal">
+  <section id="train" class="reveal">
     <div class="section-num">
       <svg class="asterisk" viewBox="0 0 24 24" aria-hidden="true">
         <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none">
@@ -2451,6 +2459,85 @@
         </g>
       </svg>
       <span class="section-num-counter">03</span>
+      <span class="section-num-label">Training</span>
+    </div>
+    <h2>Or, train your own people. A program for each room.</h2>
+
+    <p class="body">
+      The same playbook we run inside companies, rewired into a curriculum.
+      Four programs — for the boards who need vocabulary, the operators who
+      need leverage, the builders who need patterns, and the rest of the team
+      who just need fluency.
+    </p>
+
+    <div class="services-grid">
+      <article class="service-block">
+        <div class="service-block-meta">01 · 1 day · C-suite + board</div>
+        <h3 class="service-block-title">Executive AI Briefing</h3>
+        <p class="service-block-desc">Closed-door session for the people writing the cheque. Strategy, capital allocation, governance, where the real risk lives. They leave knowing what to ask their team — and what answers should worry them.</p>
+        <ul class="service-block-bullets">
+          <li><strong>Decision frameworks</strong> — how to score a vendor pitch in ten minutes</li>
+          <li><strong>Capital allocation</strong> — what AI spend looks like for your size of company</li>
+          <li><strong>Governance + risk</strong> — the three boards that actually matter</li>
+          <li><strong>Outcome</strong> — a leadership team that can sponsor adoption, not just rubber-stamp it</li>
+        </ul>
+      </article>
+
+      <article class="service-block">
+        <div class="service-block-meta">02 · 5 days over 3 weeks · managers + functional leads</div>
+        <h3 class="service-block-title">AI Operator Bootcamp</h3>
+        <p class="service-block-desc">Department heads pick a real use case from their own backlog. By the end of the cohort they've scoped it, prototyped it, and pitched it back to the room. You leave with people who can run pilots, not just request them.</p>
+        <ul class="service-block-bullets">
+          <li><strong>Use-case scoping</strong> — picking the one that won't waste the quarter</li>
+          <li><strong>Prototype to pitch</strong> — every cohort ships a working demo</li>
+          <li><strong>Vendor evaluation</strong> — the same playbook we use in the audit</li>
+          <li><strong>Outcome</strong> — three to five managers who can lead an internal pilot</li>
+        </ul>
+      </article>
+
+      <article class="service-block">
+        <div class="service-block-meta">03 · 4 weeks · engineering + data</div>
+        <h3 class="service-block-title">AI Builder Track</h3>
+        <p class="service-block-desc">For the team that has to ship. RAG, agents, evals, guardrails — built against your stack, your data, your latency budget. Ends with one feature pushed to staging and the rest of the team able to ship the next.</p>
+        <ul class="service-block-bullets">
+          <li><strong>Hands-on with your stack</strong> — no toy datasets, no "imagine if…"</li>
+          <li><strong>Evals + observability</strong> — how you'll know it's working in prod</li>
+          <li><strong>Guardrail patterns</strong> — what to ship vs. what to gate</li>
+          <li><strong>Outcome</strong> — one shipped feature, plus a team that can ship the next three</li>
+        </ul>
+      </article>
+
+      <article class="service-block">
+        <div class="service-block-meta">04 · 6 weeks · whole company</div>
+        <h3 class="service-block-title">AI Fluency Program</h3>
+        <p class="service-block-desc">Floor-level competence across the company. Async curriculum plus three live sessions. Tool use, prompt patterns, when not to use AI, and your own internal AI playbook by the end of week six.</p>
+        <ul class="service-block-bullets">
+          <li><strong>Tool fluency</strong> — what to use for what, with examples from your own work</li>
+          <li><strong>Prompt patterns</strong> — five reusable templates, not fifty tricks</li>
+          <li><strong>When not to use AI</strong> — the costliest mistake we see every month</li>
+          <li><strong>Outcome</strong> — an internal AI playbook the team actually opens</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="services-foot">
+      <strong>Cohorts run on-site in Dubai or remote across the GCC.</strong> Programs scope per company — talk to us about a custom blend across the four.
+    </div>
+  </section>
+
+  <div class="rule" aria-hidden="true"><svg class="rule-ast" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="6.4" y1="6.4" x2="17.6" y2="17.6"/><line x1="17.6" y1="6.4" x2="6.4" y2="17.6"/></g></svg></div>
+
+  <section id="practice" class="reveal">
+    <div class="section-num">
+      <svg class="asterisk" viewBox="0 0 24 24" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none">
+          <line x1="12" y1="2" x2="12" y2="22"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <line x1="6.4" y1="6.4" x2="17.6" y2="17.6"/>
+          <line x1="17.6" y1="6.4" x2="6.4" y2="17.6"/>
+        </g>
+      </svg>
+      <span class="section-num-counter">04</span>
       <span class="section-num-label">The practice</span>
     </div>
     <h2>One operator. Start to finish.</h2>
@@ -3164,7 +3251,7 @@
       if (overlay) { overlay.classList.remove('open'); overlay.setAttribute('aria-hidden', 'true'); }
     }
 
-    var sectionIds = ['what', 'how', 'practice', 'contact'];
+    var sectionIds = ['what', 'how', 'train', 'practice', 'contact'];
     function getSections() {
       return sectionIds.map(function (id) { return document.getElementById(id); }).filter(Boolean);
     }
