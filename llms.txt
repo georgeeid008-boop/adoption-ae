@@ -1,0 +1,24 @@
+# Adoption
+
+> Operator-led AI adoption practice based in Dubai. A small group of principals, each running AI adoption inside the company they work for, available to run it inside yours.
+
+## Who it's for
+
+50–500 person companies in the UAE and GCC whose board, CEO, or operator team is being told "do something about AI" and needs to make that real — not theoretical.
+
+## Services
+
+- **AI Readiness Audit** — 2 weeks. Free. 12-page executive readout, 6-dimension diagnostic (data, team, process, tooling, leadership, use cases), prioritized 90-day plan.
+- **AI Taskforce Workshop** — Half or full day on-site working session with leadership and key operators. Output: AI charter, prioritized backlog, governance model, 30-day plan.
+- **Fractional AI Advisor** — Quarterly retainer. 2–4 hours per week. Async plus weekly call with the same operator. For teams who have a plan and need senior eyes.
+- **Adoption Sprint** — 10–12 weeks. Executive sponsor required. One use case shipped to production, a trained operator inside the company, a reusable playbook.
+
+## Positioning
+
+Operator-led, not generalist consulting. Not a tools vendor. The audit is always free; engagements are scoped per company and quoted after the call. Same principal from first call through to shipped use case — no subcontractors, no junior associates, no account managers between the client and the work.
+
+## Contact
+
+- Email: hello@adoption.ae
+- Web: https://adoption.ae
+- Based: Dubai, UAE
