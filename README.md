@@ -2,11 +2,11 @@
 
 Landing page for the AI Consulting practice (Imad / Alex Reid side business — operator collective with George Eid).
 
-**Live:** https://adoption.ae · **Backup:** https://adoption-ae.pages.dev
+**Live:** https://adoption.ae · **Backup:** https://adoption-ae.pages.dev · **Preview:** https://georgeeid008-boop.github.io/adoption-ae/
 
 ## How it works
 
-Single-file HTML site. Hosted on Cloudflare Pages. Push to `main` → auto-deploys in ~30s.
+Single-file HTML site. Hosted on Cloudflare Pages with GitHub integration. **Push to `main` → adoption.ae updates in ~30s.** GH Pages also serves the same content as a secondary URL.
 
 ```
 .
